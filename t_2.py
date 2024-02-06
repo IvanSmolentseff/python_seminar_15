@@ -23,6 +23,7 @@ parser.add_argument("b", type=int, help="Делитель - введите це�
 
 args = parser.parse_args()
 
+
 def division(a, b):
     try:
         res = a / b
